@@ -1,0 +1,25 @@
+body, html{
+    line-height: 1.5;
+    padding:2px;
+    margin: 2px;
+    font-family: "Ubuntu", sans-serif;
+}
+.header, .body, .footer{
+    padding: 10px 10px;
+    margin: 0px;
+    color: white;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(44, 68, 44);
+    }
+.body{
+        background-color: rgb(54, 182, 54);
+    }
+.sideliste{
+        background-color: rgb(67, 136, 67);
+        
+    }
+    .footer{
+        background-color: rgb(44, 68, 44);
+    }

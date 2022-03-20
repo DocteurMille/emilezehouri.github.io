@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
+    <style>
+        
+       aside{
+           padding:0px;
+           margin:0px;
+           width: auto;
+           color: white;
+           justify-content: center;
+       }
+     
+        
+        ul, li{
+            
+            list-style-type: none;
+            display: block;
+           
+          
+        }
+        
+        ul>li:hover{
+            background-color: rgb(51, 58, 41);
+            padding-inline-start: 0px;
+            padding-inline-end: 30px;
+        }
+        ul>li>ul .sousMenu:hover{
+            background-color: rgb(102, 133, 59);
+            padding-inline-start: 0px;
+            padding-inline-end: 30px;
+            
+        }
+
+        ul ul{
+            position:absolute;
+            display:none;
+            left: 70px;
+            top: 0px;
+        }
+        li{
+            position: relative;
+            size: 2em;
+        }
+        ul li:hover ul{
+            display:inline;
+        }
+        .header {
+            font-size: 2em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding:0px;
+        }
+        
+        
+     
+        
+
+
+    </style>
+<body>
+    
+        <header class="header">Le pont mirabeau</header>
+
+        <aside class="sideliste">
+            <div class="liste">
+            <ul>
+                <li>Home</li>
+
+                <li class="Services">Services
+                 <ul class="sousMenu un" >
+                    <li>Strategy</li>
+                    <li>Optimization</li> </ul>
+                </li> 
+
+                <li class="Publications">Publications
+                 <ul class="sousMenu deux">
+                    <li>Article</li>
+                    <li>Tutorial</li></ul>
+                </li> 
+
+                <li>Events</li>
+                  
+                <li>Contact</li>
+            </ul>  
+            </div>    
+        </aside>
+
+        <div class="body">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Corporis nulla, nemo voluptas veritatis non minus obcaecati recusandae eos saepe dolorum,
+            commodi natus et! Assumenda sit voluptate tenetur. 
+            Corporis ab quibusdam veniam iure provident omnis fugit eum aspernatur cumque sunt placeat necessitatibus eveniet vel incidunt, 
+            dignissimos tenetur modi aut dicta veritatis doloribus explicabo laborum quis, quisquam recusandae!
+            Consequatur ea omnis beatae rerum quia? Corrupti, assumenda. 
+            Vero explicabo voluptatum doloremque velit eligendi ipsam magnam quis mollitia deleniti repellat quasi reiciendis corrupti qui natus nostrum unde libero quod 
+            debitis in id exercitationem, animi alias labore esse. 
+            Amet distinctio quaerat, consequatur velit earum necessitatibus?</div>
+       
+        <footer class="footer">Footer - Copyright</footer>
+</body>
+</html>
